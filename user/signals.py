@@ -23,3 +23,5 @@ def poll_handler(**kwargs):
     print('1. Same') # got the object before the signal handler working
     print('2. Same') # Has the same Id
     print('3. Same') # transaction.get_connection().in_atomic_block this returns True
+
+
